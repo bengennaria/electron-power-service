@@ -1,20 +1,20 @@
 {
-  "name": "@sidneys/electron-power-service",
+  "name": "@bengennaria/electron-power-service",
   "version": "0.135.0",
   "description": "Simplified interface for  application Power Management.",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/sidneys/electron-power-service",
+  "homepage": "https://github.com/bengennaria/electron-power-service",
   "author": {
-    "name": "sidneys",
-    "email": "sidneys.github.io@outlook.com",
-    "url": "https://bitbucket.org/sidneys"
+    "name": "bengennaria",
+    "email": "ben.gennaria@gmail.com",
+    "url": "https://github.com/bengennaria"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/sidneys/electron-power-service.git"
+    "url": "https://github.com/bengennaria/electron-power-service.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/sidneys/electron-power-service/issues"
+    "url": "https://github.com/bengennaria/electron-power-service/issues"
   },
   "deprecated": false,
   "engines": {
@@ -31,8 +31,8 @@
     "tools"
   ],
   "dependencies": {
-    "@sidneys/logger": "^1.151.0",
-    "@sidneys/platform-tools": "^1.150.0"
+    "@bengennaria/logger": "git+https://bengennaria@github.com/bengennaria/logger.git",
+    "@bengennaria/platform-tools": "git+https://bengennaria@github.com/bengennaria/platform-tools.git"
   },
   "devDependencies": {
     "electron": "^11.2.0",
