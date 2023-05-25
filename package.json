@@ -1,0 +1,42 @@
+{
+  "name": "@sidneys/electron-power-service",
+  "version": "0.135.0",
+  "description": "Simplified interface for  application Power Management.",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/sidneys/electron-power-service",
+  "author": {
+    "name": "sidneys",
+    "email": "sidneys.github.io@outlook.com",
+    "url": "https://bitbucket.org/sidneys"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/sidneys/electron-power-service.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/sidneys/electron-power-service/issues"
+  },
+  "deprecated": false,
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "os": [
+    "darwin",
+    "win32",
+    "linux"
+  ],
+  "keywords": [
+    "development",
+    "tools"
+  ],
+  "dependencies": {
+    "@sidneys/logger": "^1.151.0",
+    "@sidneys/platform-tools": "^1.150.0"
+  },
+  "devDependencies": {
+    "electron": "^11.2.0",
+    "eslint": "^7.18.0"
+  },
+  "main": "index.js"
+}
