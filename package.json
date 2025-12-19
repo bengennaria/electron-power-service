@@ -31,8 +31,8 @@
     "tools"
   ],
   "dependencies": {
-    "@bengennaria/logger": "git+https://bengennaria@github.com/bengennaria/logger.git",
-    "@bengennaria/platform-tools": "git+https://bengennaria@github.com/bengennaria/platform-tools.git"
+    "@bengennaria/logger": "github:bengennaria/logger",
+    "@bengennaria/platform-tools": "github:bengennaria/platform-tools"
   },
   "devDependencies": {
     "electron": "^11.2.0",
